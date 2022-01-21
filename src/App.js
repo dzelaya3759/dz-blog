@@ -1,185 +1,23 @@
 import React from 'react';
 import './App.css';
+import Card from './components/card';
+import Article from './components/article'
+import Navbar from './components/navbar'
+import Footer from './components/footer'
 
 function App() {
   return (
     <div>
       <header>
-        [[ SITE NAV GOES HERE ]]
+        <Navbar/>
       </header>
       <div class="container">
         <h1 class="section-title">Recent Photos (6)</h1>
-        <ul class="cards">
-          <li class="cards-item quarter">
-            <div class="card">
-              <div class="card-content">
-                <div class="card-image"></div>
-                <div class="card-container">
-                  <div class="card-title">Butcher twee cronut</div>
-                  <p class="card-text">Selfies vice chia hammock artisan ethical poutine tbh gentrify tofu.</p>
-                  <div class="btn-block">
-                    <button class="btn third">
-                      <span role="img" aria-label="Add to Album">➕</span>
-                    </button>
-                    <button class="btn third">
-                      <span role="img" aria-label="Email">✉️</span>
-                    </button>
-                    <button class="btn third">
-                      <span role="img" aria-label="Favorite">⭐</span>
-                    </button>
-                  </div>
-                </div>
-                <div class="btn-block">
-                  <button class="btn full">
-                    <span role="img" aria-label="Comment">💬</span> 
-                    <span class="small">[100]</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="cards-item quarter">
-            <div class="card">
-              <div class="card-content">
-                <div class="card-image"></div>
-                <div class="card-container">
-                  <div class="card-title">Butcher twee cronut</div>
-                  <p class="card-text">Selfies vice chia hammock artisan ethical poutine tbh gentrify tofu.</p>
-                  <div class="btn-block">
-                    <button class="btn third">
-                      <span role="img" aria-label="Add to Album">➕</span>
-                    </button>
-                    <button class="btn third">
-                      <span role="img" aria-label="Email">✉️</span>
-                    </button>
-                    <button class="btn third">
-                      <span role="img" aria-label="Favorite">⭐</span>
-                    </button>
-                  </div>
-                </div>
-                <div class="btn-block">
-                  <button class="btn full">
-                    <span role="img" aria-label="Comment">💬</span> 
-                    <span class="small">[100]</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="cards-item quarter">
-            <div class="card">
-              <div class="card-content">
-                <div class="card-image"></div>
-                <div class="card-container">
-                  <div class="card-title">Butcher twee cronut</div>
-                  <p class="card-text">Selfies vice chia hammock artisan ethical poutine tbh gentrify tofu.</p>
-                  <div class="btn-block">
-                    <button class="btn third">
-                      <span role="img" aria-label="Add to Album">➕</span>
-                    </button>
-                    <button class="btn third">
-                      <span role="img" aria-label="Email">✉️</span>
-                    </button>
-                    <button class="btn third">
-                      <span role="img" aria-label="Favorite">⭐</span>
-                    </button>
-                  </div>
-                </div>
-                <div class="btn-block">
-                  <button class="btn full">
-                    <span role="img" aria-label="Comment">💬</span> 
-                    <span class="small">[100]</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="cards-item quarter">
-            <div class="card">
-              <div class="card-content">
-                <div class="card-image"></div>
-                <div class="card-container">
-                  <div class="card-title">Butcher twee cronut</div>
-                  <p class="card-text">Selfies vice chia hammock artisan ethical poutine tbh gentrify tofu.</p>
-                  <div class="btn-block">
-                    <button class="btn third">
-                      <span role="img" aria-label="Add to Album">➕</span>
-                    </button>
-                    <button class="btn third">
-                      <span role="img" aria-label="Email">✉️</span>
-                    </button>
-                    <button class="btn third">
-                      <span role="img" aria-label="Favorite">⭐</span>
-                    </button>
-                  </div>
-                </div>
-                <div class="btn-block">
-                  <button class="btn full">
-                    <span role="img" aria-label="Comment">💬</span> 
-                    <span class="small">[100]</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="cards-item quarter">
-            <div class="card">
-              <div class="card-content">
-                <div class="card-image"></div>
-                <div class="card-container">
-                  <div class="card-title">Butcher twee cronut</div>
-                  <p class="card-text">Selfies vice chia hammock artisan ethical poutine tbh gentrify tofu.</p>
-                  <div class="btn-block">
-                    <button class="btn third">
-                      <span role="img" aria-label="Add to Album">➕</span>
-                    </button>
-                    <button class="btn third">
-                      <span role="img" aria-label="Email">✉️</span>
-                    </button>
-                    <button class="btn third">
-                      <span role="img" aria-label="Favorite">⭐</span>
-                    </button>
-                  </div>
-                </div>
-                <div class="btn-block">
-                  <button class="btn full">
-                    <span role="img" aria-label="Comment">💬</span> 
-                    <span class="small">[100]</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="cards-item quarter">
-            <div class="card">
-              <div class="card-content">
-                <div class="card-image"></div>
-                <div class="card-container">
-                  <div class="card-title">Butcher twee cronut</div>
-                  <p class="card-text">Selfies vice chia hammock artisan ethical poutine tbh gentrify tofu.</p>
-                  <div class="btn-block">
-                    <button class="btn third">
-                      <span role="img" aria-label="Add to Album">➕</span>
-                    </button>
-                    <button class="btn third">
-                      <span role="img" aria-label="Email">✉️</span>
-                    </button>
-                    <button class="btn third">
-                      <span role="img" aria-label="Favorite">⭐</span>
-                    </button>
-                  </div>
-                </div>
-                <div class="btn-block">
-                  <button class="btn full">
-                    <span role="img" aria-label="Comment">💬</span> 
-                    <span class="small">[100]</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-        <h1 class="section-title">Recent Articles (3)</h1>
+        
+        <Card/>
+    
+       
+        <h1 class="section-title"> <Article/> </h1>
         <ul class="cards">
           <li class="cards-item half">
             <div class="card">
@@ -209,40 +47,13 @@ function App() {
               </div>
             </div>
           </li>
+         <Article/>
           <li class="cards-item half">
             <div class="card">
               <div class="card-content">
                 <div class="card-image landscape"></div>
                 <div class="card-container">
-                  <div class="card-title">Pop-up gochujang artisan activated charcoal bushwick irony raclette</div>
-                  <p class="card-text">Listicle hexagon helvetica tumeric shabby chic cloud bread XOXO four loko umami crucifix hoodie forage bushwick. Mlkshk cliche everyday carry sartorial truffaut portland prism four loko cronut. Tousled locavore tote bag food truck blue bottle shaman...</p>
-                  <div class="btn-block">
-                    <button class="btn third">
-                      <span role="img" aria-label="Add to Album">➕</span>
-                    </button>
-                    <button class="btn third">
-                      <span role="img" aria-label="Email">✉️</span>
-                    </button>
-                    <button class="btn third">
-                      <span role="img" aria-label="Favorite">⭐</span>
-                    </button>
-                  </div>
-                </div>
-                <div class="btn-block">
-                  <button class="btn full">
-                    <span role="img" aria-label="Comment">💬</span> 
-                    <span class="small">[100]</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="cards-item half">
-            <div class="card">
-              <div class="card-content">
-                <div class="card-image landscape"></div>
-                <div class="card-container">
-                  <div class="card-title">Pop-up gochujang artisan activated charcoal bushwick irony raclette</div>
+                  <div class="card-title"><Card/></div>
                   <p class="card-text">Listicle hexagon helvetica tumeric shabby chic cloud bread XOXO four loko umami crucifix hoodie forage bushwick. Mlkshk cliche everyday carry sartorial truffaut portland prism four loko cronut. Tousled locavore tote bag food truck blue bottle shaman...</p>
                   <div class="btn-block">
                     <button class="btn third">
@@ -371,10 +182,12 @@ function App() {
         </ul>
       </div>
       <footer>
-        [[ SITE FOOTER GOES HERE ]]
+       <Footer/>
       </footer>
     </div>
   );
 }
 
 export default App;
+
+
